@@ -16,7 +16,7 @@ Unity Group 105
 
 ## Product Backlog URL
 
-[Unity Group 105 Miro Backlog Board]() // yapım aşamasında
+[Unity Group 105 Miro Backlog Board](https://miro.com/app/board/uXjVK1Zxcfw=/?share_link_id=701000237307)
 
 ## Ürün Açıklaması
 
@@ -48,14 +48,13 @@ Unity Group 105
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/Bootcamp2022Example/main/ProjectManagement/Sprint1Documents/backlog1.png) 
+![Backlog 1](https://prnt.sc/zMT8ZZs9UzBP) 
 
 - **Sprint Review**: 
-Alınan kararlar: // yapım aşamasında
+Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azından elimizde elle tutulur bir proje olmasına karar aldık.
 
 - **Sprint Retrospective:**
-  - // yapım aşamasında
+  - İlk sprintteki karar alma sürecimizdeki ve iletişimsizlikteki problemleri ele aldık.
+  - Oyun temasını ve 2D olmasını kararlaştırdık.
  
-
-
 ---
