@@ -48,7 +48,7 @@ Unity Group 105
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://prnt.sc/zMT8ZZs9UzBP) 
+  https://prnt.sc/zMT8ZZs9UzBP
 
 - **Sprint Review**: 
 Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azından elimizde elle tutulur bir proje olmasına karar aldık.
