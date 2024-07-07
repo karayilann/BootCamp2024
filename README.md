@@ -12,7 +12,7 @@ Unity Group 105
 
 ## Ürün İsmi
 
-// yapım aşamasında
+Kanıt
 
 ## Product Backlog URL
 
@@ -20,20 +20,15 @@ Unity Group 105
 
 ## Ürün Açıklaması
 
-// yapım aşamasında
-
-
-- **Uygulama birincil fonksiyonu**: // yapım aşamasında
-
-- **Uygulama ikincil fonksiyonu**: // yapım aşamasında
+Karakterimiz parkta yürürken yaralı halde bulduğu kişiye ilk yardım yapmaya başlar. Polis ekipleri tarafından elleri kanlı vaziyette yakalanır. Ölen kişi ünlü bir Influencer'dır. Basının tüm ilgisini çeken bu cinayette karakterinizin masum olduğunu kanıtlayabilecek misin? Yoksa hapsi mi boylayacaksın?
 
 ## Ürün Özellikleri
 
- // yapım aşamasında
+ Tercihlere dayalı olarak senaryonun ilerlediği bir yapıya sahip olan oyun, temel olarak mobil marketlerde sunulmak üzere tasarlanmıştır.
 
 ## Hedef Kitle
 
- // yapım aşamasında
+ Polisiye olaylara ilgi duyan 18-35 yaş arası mobil kullanıcılarıdır.
 
 ---
 
