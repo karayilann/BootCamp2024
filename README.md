@@ -40,10 +40,15 @@ Karakterimiz parkta yürürken yaralı halde bulduğu kişiye ilk yardım yapmay
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 250 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in 50 ile başlaması gerektiğine karar verildi.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden kararlaştırılıp haftada iki sefer yapılmasına karar verilmiştir.
+  https://prnt.sc/Arf6sj6-okC8
+  https://prnt.sc/jBZcp-ovlfaV
 
 - **Sprint board update**: Sprint board screenshotları: 
   https://prnt.sc/zMT8ZZs9UzBP
+
+- **Ürün görüntüsü**:
+  https://prnt.sc/ua5ZnxngR9c5
 
 - **Sprint Review**: 
 Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azından elimizde elle tutulur bir proje olmasına karar aldık.
