@@ -58,3 +58,31 @@ Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azında
   - Oyun temasını ve 2D olmasını kararlaştırdık.
  
 ---
+
+# Sprint 2
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 250 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprintin 100 puanlık olması gerektiğine karar verildi.
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden kararlaştırılıp haftada iki sefer yapılmasına karar verilmiştir.
+  [url=https://hizliresim.com/btd01nl][img]https://i.hizliresim.com/btd01nl.png[/img][/url]
+  [url=https://hizliresim.com/qbdcrbn][img]https://i.hizliresim.com/qbdcrbn.png[/img][/url]
+
+- **Sprint board update**: Sprint board screenshotları: 
+  https://prnt.sc/zMT8ZZs9UzBP
+
+- **Ürün görüntüsü**:
+  [url=https://hizliresim.com/jctzcwh][img]https://i.hizliresim.com/jctzcwh.png[/img][/url]
+  [url=https://hizliresim.com/c7r3517][img]https://i.hizliresim.com/c7r3517.png[/img][/url]
+  [url=https://hizliresim.com/1p91lo5][img]https://i.hizliresim.com/1p91lo5.png[/img][/url]
+
+- **Sprint Review**: 
+Alınan kararlar: Oyunumuzun hikaye ve seçim ağırlıklı olması sebebiyle gameplay'den çok hikaye üzerinde durmaya karar verdik.
+
+- **Sprint Retrospective:**
+  - Şimdiye kadar görsel tasarımı ve hikaye üzerinde durduk. 3. sprintte artık oyunun mekanikleri üzerinde çalışacağız.
+ 
+---
