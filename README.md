@@ -68,6 +68,7 @@ Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azında
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden kararlaştırılıp haftada iki sefer yapılmasına karar verilmiştir.
+
   ![image](https://github.com/user-attachments/assets/6e2b60a2-a849-4134-9174-a54fa34a5006)
   ![image](https://github.com/user-attachments/assets/4cb30d20-95f7-41f6-8288-4ef491734627)
 
@@ -76,6 +77,7 @@ Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azında
   https://prnt.sc/zMT8ZZs9UzBP
 
 - **Ürün görüntüsü**:
+
   ![image](https://github.com/user-attachments/assets/ad07a743-e557-41af-b34e-23dbf2a0831e)
   ![image](https://github.com/user-attachments/assets/e512e2ca-0a28-4651-98cb-d1c499b3fa38)
   ![image](https://github.com/user-attachments/assets/826998c9-7bf3-415b-b877-6bca220cb724)
