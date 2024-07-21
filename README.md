@@ -73,8 +73,9 @@ Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azında
   ![image](https://github.com/user-attachments/assets/4cb30d20-95f7-41f6-8288-4ef491734627)
 
 
-- **Sprint board update**: Sprint board screenshotları: 
-  https://prnt.sc/zMT8ZZs9UzBP
+- **Sprint board update**: Sprint board screenshotları:
+
+  ![image](https://github.com/user-attachments/assets/736acb07-15fb-4ddf-b631-afc34b3ba9ab)
 
 - **Ürün görüntüsü**:
 
