@@ -68,21 +68,24 @@ Alınan kararlar: Projeye hızlı bir giriş ile ikinci sprinte kadar en azında
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden kararlaştırılıp haftada iki sefer yapılmasına karar verilmiştir.
-  [url=https://hizliresim.com/btd01nl][img]https://i.hizliresim.com/btd01nl.png[/img][/url]
-  [url=https://hizliresim.com/qbdcrbn][img]https://i.hizliresim.com/qbdcrbn.png[/img][/url]
+  ![image](https://github.com/user-attachments/assets/6e2b60a2-a849-4134-9174-a54fa34a5006)
+  ![image](https://github.com/user-attachments/assets/4cb30d20-95f7-41f6-8288-4ef491734627)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
   https://prnt.sc/zMT8ZZs9UzBP
 
 - **Ürün görüntüsü**:
-  [url=https://hizliresim.com/jctzcwh][img]https://i.hizliresim.com/jctzcwh.png[/img][/url]
-  [url=https://hizliresim.com/c7r3517][img]https://i.hizliresim.com/c7r3517.png[/img][/url]
-  [url=https://hizliresim.com/1p91lo5][img]https://i.hizliresim.com/1p91lo5.png[/img][/url]
+  ![image](https://github.com/user-attachments/assets/ad07a743-e557-41af-b34e-23dbf2a0831e)
+  ![image](https://github.com/user-attachments/assets/e512e2ca-0a28-4651-98cb-d1c499b3fa38)
+  ![image](https://github.com/user-attachments/assets/826998c9-7bf3-415b-b877-6bca220cb724)
+
 
 - **Sprint Review**: 
 Alınan kararlar: Oyunumuzun hikaye ve seçim ağırlıklı olması sebebiyle gameplay'den çok hikaye üzerinde durmaya karar verdik.
 
 - **Sprint Retrospective:**
   - Şimdiye kadar görsel tasarımı ve hikaye üzerinde durduk. 3. sprintte artık oyunun mekanikleri üzerinde çalışacağız.
+  - Project Owner'imizin talihsiz hastalığı sebebiyle projeyi biraz ertelemek durumunda kaldık.
  
 ---
