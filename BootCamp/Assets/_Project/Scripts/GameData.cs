@@ -13,8 +13,8 @@ namespace _Project.Scripts
                     StateText = "GECE PARKTA YÜRÜYÜŞE ÇIKMIŞTIN. AZ İLERİDE YERDE YATAN BİRİ VARDI. BİRAZ UZAĞINDA İSE KOŞAN BİRİNİ GÖRDÜN.",
                     Options = new[]
                     {
-                        new GameStateOption { OptionText = "Yardım Et", NextState = "yardimEt" },
-                        new GameStateOption { OptionText = "Öğrenmeden Geç ve Yürümeye Devam Et", NextState = "gecDevam" }
+                        new GameStateOption { OptionText = "Görmezden Gel ve Yürümeye Devam Et", NextState = "gecDevam" },
+                        new GameStateOption { OptionText = "Yardım Et", NextState = "yardimEt" }
                     },
                     BackgroundImage = GameManager.Instance.firstImage
                 }
@@ -29,7 +29,6 @@ namespace _Project.Scripts
                         new GameStateOption { OptionText = "Tutuklamaya Diren", NextState = "tutuklamayaDiren" }
                     },
                     BackgroundImage = GameManager.Instance.secondImage
-                    
                 }
             },
             {
@@ -49,7 +48,7 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Avukat İste", NextState = "avukatIste" },
-                        new GameStateOption { OptionText = "Reddet", NextState = "reddet" }
+                        new GameStateOption { OptionText = "Avukatı Reddet", NextState = "avukatiReddet" }
                     }
                 }
             },
@@ -66,28 +65,18 @@ namespace _Project.Scripts
             {
                 "avukatIste", new GameState
                 {
-                    StateText = "Avukat talebini reddettin. Polis sorguya başladı... Öldürülen kadının ünlü bir sosyal medya fenomeni olduğunu öğrendin. Tanıyıp tanımadığın soruldu.",
+                    StateText = "CMK’dan avukat atandı. Avukat alanında çok iyi ve davanı ücretsiz kabul etti. Seninle baş başa konuşmak istiyor.",
                     Options = new[]
                     {
-                        new GameStateOption { OptionText = "Evet", NextState = "evet" },
-                        new GameStateOption { OptionText = "Hayır", NextState = "hayir" }
+                        new GameStateOption { OptionText = "Avukatla Devam Et", NextState = "avukatDevam" },
+                        new GameStateOption { OptionText = "Avukatı Reddet", NextState = "avukatiReddet" }
                     }
                 }
             },
             {
-                "reddet", new GameState
+                "avukatiReddet", new GameState
                 {
-                    StateText = "Polis sosyal medya hesaplarından öldürülen kadını takip ettiğini buldu. Hatta tüm fotoğraflarını beğenip birçoğuna yorum yaptığını keşfetti. Yalan söyledin, suçüstü yakalandın. TUTUKLANDIN.",
-                    Options = new[]
-                    {
-                        new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
-                    }
-                }
-            },
-            {
-                "evet", new GameState
-                {
-                    StateText = "Sadece tanımakla kalmayıp kadının her paylaşımını da takip ettiğin ortaya çıktı. Polis seni stalker olmakla suçluyor... TUTUKLANDIN.",
+                    StateText = "Polis sosyal medya hesaplarından öldürülen kadını takip ettiğini buldu. Tüm fotoğraflarını beğenip yorum yaptığını keşfetti. Yalan söyledin, suçüstü yakalandın. TUTUKLANDIN.",
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
@@ -95,9 +84,102 @@ namespace _Project.Scripts
                 }
             },
             {
-                "hayir", new GameState
+                "avukatDevam", new GameState
                 {
-                    StateText = "Polis sosyal medya hesaplarından öldürülen kadını takip ettiğini buldu. Hatta tüm fotoğraflarını beğenip birçoğuna yorum yaptığını keşfetti. Yalan söyledin, suçüstü yakalandın. TUTUKLANDIN.",
+                    StateText = "Avukatın olayları senden dinlemek istedi. Kaçan kişiye dair bir detay gördün mü?",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Evet", NextState = "evetDetay" },
+                        new GameStateOption { OptionText = "Hayır", NextState = "hayirDetay" }
+                    }
+                }
+            },
+            {
+                "evetDetay", new GameState
+                {
+                    StateText = "İlk sahne yeniden görünür. Kaçan kişi hafifçe kafasını çevirmiştir ve bir tutam sarı saç görünür. Avukatınla bu bilgiyi paylaştın.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Devam Et", NextState = "devamAvukat" }
+                    }
+                }
+            },
+            {
+                "hayirDetay", new GameState
+                {
+                    StateText = "Başka bir detay hatırlayamadın. TUTUKLANDIN.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
+                    }
+                }
+            },
+            {
+                "devamAvukat", new GameState
+                {
+                    StateText = "Avukat, bu bilgiyi polise aktardı. Polis, tarifine uyan ve suç kaydı bulunan 3 kişiyi buldu. Bu kişilerin fotoğraflarına bakmanı istedi.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Evet", NextState = "evetFoto" },
+                        new GameStateOption { OptionText = "Hayır", NextState = "hayirFoto" }
+                    }
+                }
+            },
+            {
+                "evetFoto", new GameState
+                {
+                    StateText = "Evet! Bu olmalı! Ufak tefek biri zannetmiştim fakat kadınmış! Avukat: Hala seni kurtarma şansımız çok düşük. Cinayet silahı kayıp ve üstü başı kanlı bulunan sensin.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Devam Et", NextState = "devamFoto" }
+                    }
+                }
+            },
+            {
+                "hayirFoto", new GameState
+                {
+                    StateText = "Kadının olay saati için tanığı varmış... Polis, onları yanlış yönlendirmeye çalıştığını düşündü. TUTUKLANDIN.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
+                    }
+                }
+            },
+            {
+                "devamFoto", new GameState
+                {
+                    StateText = "Belki olay yerine dönsen daha fazla detay hatırlayabilirsin. Ne dersin?",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Evet", NextState = "olayYeri" },
+                        new GameStateOption { OptionText = "Hayır", NextState = "hayirOlayYeri" }
+                    }
+                }
+            },
+            {
+                "olayYeri", new GameState
+                {
+                    StateText = "Polisle beraber parkta olay yerine geri döndünüz. Bir hatıra... Koşarak uzaklaşan kişinin elinde parlayan bir bıçak. Bıçağı buldun!",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Devam Et", NextState = "son" }
+                    }
+                }
+            },
+            {
+                "hayirOlayYeri", new GameState
+                {
+                    StateText = "Tekrar oraya gidemem dedin. Daha fazla kanıt bulamadığın için TUTUKLANDIN.",
+                    Options = new[]
+                    {
+                        new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
+                    }
+                }
+            },
+            {
+                "son", new GameState
+                {
+                    StateText = "Tekrar karakoldasın. Nezaretteyken avukatın geldi. Bıçağın üstündeki parmak izi fotoğrafta teşhis ettiğin kadınınmış. KURTULDUN!",
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa Dön", NextState = "start" }
@@ -113,7 +195,6 @@ namespace _Project.Scripts
         public GameStateOption[] Options { get; set; }
         public Sprite BackgroundImage { get; set; }
     }
-
 
     public class GameStateOption
     {
