@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace _Project.Scripts
 {
@@ -14,7 +15,8 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Yardım Et", NextState = "yardimEt" },
                         new GameStateOption { OptionText = "Öğrenmeden Geç ve Yürümeye Devam Et", NextState = "gecDevam" }
-                    }
+                    },
+                    BackgroundImage = GameManager.Instance.firstImage
                 }
             },
             {
@@ -25,7 +27,9 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Polislerle Git", NextState = "polislerleGit" },
                         new GameStateOption { OptionText = "Tutuklamaya Diren", NextState = "tutuklamayaDiren" }
-                    }
+                    },
+                    BackgroundImage = GameManager.Instance.secondImage
+                    
                 }
             },
             {
@@ -107,7 +111,9 @@ namespace _Project.Scripts
     {
         public string StateText { get; set; }
         public GameStateOption[] Options { get; set; }
+        public Sprite BackgroundImage { get; set; }
     }
+
 
     public class GameStateOption
     {

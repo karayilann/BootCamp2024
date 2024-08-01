@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,11 +7,43 @@ namespace _Project.Scripts
 {
     public class GameManager : MonoBehaviour
     {
+        private static GameManager _instance;
+        
         public TextMeshProUGUI gameText;
         public Button option1Button;
         public Button option2Button;
+        public Image backgroundImage;
 
+        public Sprite firstImage;
+        
+        
         private GameState currentState;
+        public Sprite secondImage;
+
+        public static GameManager Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = FindObjectOfType<GameManager>();
+                }
+
+                return _instance;
+            }
+        }
+
+        private void Awake()
+        {
+            if (_instance == null)
+            {
+                _instance = this;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
 
         void Start()
         {
@@ -32,6 +65,11 @@ namespace _Project.Scripts
         void UpdateUI()
         {
             gameText.text = currentState.StateText;
+
+            if (currentState.BackgroundImage != null)
+            {
+                backgroundImage.sprite = currentState.BackgroundImage;  // Update the background image
+            }
 
             if (currentState.Options.Length > 0)
             {
