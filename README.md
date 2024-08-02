@@ -112,7 +112,7 @@ Alınan kararlar: Oyunumuzun hikaye ve seçim ağırlıklı olması sebebiyle ga
 
 - **Sprint board update**: Sprint board screenshotları:
 
-  ![image](https://github.com/user-attachments/assets/736acb07-15fb-4ddf-b631-afc34b3ba9ab)
+  ![image](https://github.com/user-attachments/assets/e164a2b3-c702-49e4-bfae-ef493e45f7b7)
 
 - **Ürün görüntüsü**:
   ![image](https://github.com/user-attachments/assets/62cf816c-ca9a-499a-8b13-2a5d2282ad0f)
