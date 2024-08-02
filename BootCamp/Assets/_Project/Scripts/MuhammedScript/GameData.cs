@@ -16,7 +16,7 @@ namespace _Project.Scripts
                         new GameStateOption { OptionText = "Yardım et.", NextState = "yardimEt" },
                         new GameStateOption { OptionText = "Görmezden gel ve yürümeye devam et. Tanık manık yazarlar neme lazım.", NextState = "gecDevam" }
                     },
-                    BackgroundImage = GameManager.Instance.firstImage
+                    BackgroundImage = GameManager.Instance.yaraliKadin
                 }
             },
             {
@@ -38,7 +38,7 @@ namespace _Project.Scripts
                         new GameStateOption { OptionText = "Yakalamaya diren. Bakacaaaz, kimin amcası daha büyük, bakacaaaz.", NextState = "tutuklamayaDiren" },
                         new GameStateOption { OptionText = "Polislerle git, efendi ol.", NextState = "polislerleGit" }
                     },
-                    BackgroundImage = GameManager.Instance.secondImage
+                    BackgroundImage = GameManager.Instance.yakalamaAni
 
                 }
             },
@@ -49,7 +49,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -60,7 +61,8 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Avukat istemiyorum. Bende mangal gibi yürek var. Benim amcam Vuran GAYA. Bakacaaaz.", NextState = "avukatiReddet" },
                         new GameStateOption { OptionText = "Avukat iste. Akıllı ol.", NextState = "avukatIste" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.sorguOdasi
                 }
             },
             {
@@ -71,7 +73,7 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Evet, tanıyorum. Ne var bunda, gebeş kaplumbağa?", NextState = "evetTaniyorum" },
                         new GameStateOption { OptionText = "Hayır, tanımıyorum. İki gözüm önüme aksın.", NextState = "hayirTanimiyorum" }
-                    }
+                    },
                 }
             },
             {
@@ -81,7 +83,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -91,7 +94,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -113,7 +117,8 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Paraya kıyıp ünlü bir avukat tutacağım. Kelde tıraş öğrenir şimdi bu. Başım yanmasın.", NextState = "unluAvukat" },
                         new GameStateOption { OptionText = "Bu avukat ile devam et. Çocuğu gözün tuttu. Amcanı sevdiğine göre adamın hasından anlıyor.", NextState = "cmkDevam" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.cmkAvukat
                 }
             },
             {
@@ -123,7 +128,7 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
                 }
             },
             {
@@ -134,7 +139,8 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Avukata suçlu olduğunu söyle. Şakadan zarar gelmez.", NextState = "benOldurdum" },
                         new GameStateOption { OptionText = "Gördüklerini anlat. Sen suçlu değilsin.", NextState = "gordukleriniAnlat" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.unluAvukat
                 }
             },
             {
@@ -144,30 +150,20 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "CMK avukatıyla görüş.", NextState = "cmkDevam" }
-                    }
+                    },
                 }
             },
             {
                 "gordukleriniAnlat", new GameState
                 {
-                    StateText = "Olayı anlatmaya başladın. Kaçan kişiden bahsedince avukat detayları hatırlayıp hatırlamadığını sordu. Aklına bir görüntü düştü. Sarı saçlar... Avukat bu bilgiyi polise aktardı. Polis sarı saçları ve sicil kaydı olan bölgedeki 3 kişinin fotoğrafını sana göstererek teşhis etmeni istedi.",
-                    BackgroundImage = GameManager.Instance.secondImage,
+                    StateText = "Olayı anlatmaya başladın. Kaçan kişiden bahsedince avukat detayları hatırlayıp hatırlamadığını sordu. Aklına bir görüntü düştü. Sarı saçlar... Avukat bu bilgiyi polise aktardı. Polis sarı saçları ve sicil kaydı olan bölgedeki 2 kişinin fotoğrafını sana göstererek teşhis etmeni istedi.",
                     Options = new[]
                     {
-                        new GameStateOption { OptionText = "Kısa sarı saçları olan kadının fotoğrafını seç.", NextState = "kisaSariKadin" },
+
                         new GameStateOption { OptionText = "Uzun sarı saçları olan erkeğin fotoğrafını seç.", NextState = "uzunSariErkek" },
                         new GameStateOption { OptionText = "Uzun sarı saçları olan kadının fotoğrafını seç.", NextState = "uzunSariKadin" }
-                    }
-                }
-            },
-            {
-                "kisaSariKadin", new GameState
-                {
-                    StateText = "Kadının olay anında başka yerde olduğunu kanıtlayacak tanıkları varmış. Tanıklar mahkemede dinlendi. Suçtan kurtulmaya yönelik beyanlarda bulunduğunu düşünen mahkeme heyeti ağırlaştırılmış müebbet verdi. HAPSİ BOYLADIN.",
-                    Options = new[]
-                    {
-                        new GameStateOption { OptionText = "Teşhis işlemine geri dön.", NextState = "gordukleriniAnlat" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.gordukleriniAnlatKatilResmi
                 }
             },
             {
@@ -177,7 +173,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Teşhis işlemine geri dön.", NextState = "gordukleriniAnlat" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -188,7 +185,7 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Korkanın çocuğu olmaz. Pilavdan dönenin kaşığı kırılsın.", NextState = "olayYerineGit" },
                         new GameStateOption { OptionText = "Ölsem bile oraya tekrar dönmem. Başıma yine iş gelir.", NextState = "olayYerineGitme" }
-                    }
+                    },
                 }
             },
             {
@@ -198,7 +195,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Teşhis işlemine geri dön.", NextState = "gordukleriniAnlat" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -209,8 +207,7 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Kaçmaya çalış. Vınn bas gaza işte sana tas kafa...", NextState = "kacmayaCalis" },
                         new GameStateOption { OptionText = "Olay yerini incele.", NextState = "incele" }
-
-                    }
+                    },
                 }
             },
             {
@@ -221,8 +218,7 @@ namespace _Project.Scripts
                     {
                         new GameStateOption { OptionText = "Adamı durdur ve yardım iste.", NextState = "yardimIste" },
                         new GameStateOption { OptionText = "Koşmaya devam et.", NextState = "kosmayaDevam" }
-
-                    }
+                    },
                 }
             },
             {
@@ -232,7 +228,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {
@@ -242,7 +239,8 @@ namespace _Project.Scripts
                     Options = new[]
                     {
                         new GameStateOption { OptionText = "Başa dön.", NextState = "start" }
-                    }
+                    },
+                     BackgroundImage = GameManager.Instance.acilisVeHapsiBoyladin
                 }
             },
             {

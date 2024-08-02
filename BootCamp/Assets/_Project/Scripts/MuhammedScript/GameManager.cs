@@ -14,11 +14,17 @@ namespace _Project.Scripts
         public Button option2Button;
         public Image backgroundImage;
 
-        public Sprite firstImage;
+        public Sprite acilisVeHapsiBoyladin;
+        public Sprite yaraliKadin;
+        public Sprite yakalamaAni;
+        public Sprite sorguOdasi;
+        public Sprite cmkAvukat;
+        public Sprite unluAvukat;
+        public Sprite gordukleriniAnlatKatilResmi;
+
         
         
         private GameState currentState;
-        public Sprite secondImage;
 
         public static GameManager Instance
         {

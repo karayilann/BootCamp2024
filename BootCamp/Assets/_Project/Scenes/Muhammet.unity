@@ -643,8 +643,13 @@ MonoBehaviour:
   option1Button: {fileID: 1431996551}
   option2Button: {fileID: 731865699}
   backgroundImage: {fileID: 232585592}
-  firstImage: {fileID: 21300000, guid: 08faf53ef022bb740b481c18e92cd72c, type: 3}
-  secondImage: {fileID: 21300000, guid: c5c2b1267c253a948bbc2383f2247f72, type: 3}
+  acilisVeHapsiBoyladin: {fileID: 21300000, guid: d955bfdd035159f4bbe5b82312653e4a, type: 3}
+  yaraliKadin: {fileID: 21300000, guid: ce1b5fe573d1a3b44967743f8d9780db, type: 3}
+  yakalamaAni: {fileID: 21300000, guid: f8a0a92e129f58146bec43bd5f04ead5, type: 3}
+  sorguOdasi: {fileID: 21300000, guid: 17e00afa99c01384f95d2ea80ccc16a0, type: 3}
+  cmkAvukat: {fileID: 21300000, guid: b554dc526801a51448417d4f5735b49b, type: 3}
+  unluAvukat: {fileID: 21300000, guid: 91a889ca5d59b73499c721d60475311c, type: 3}
+  gordukleriniAnlatKatilResmi: {fileID: 21300000, guid: 85de8566674b79341a7efdaa51e84a86, type: 3}
 --- !u!4 &594717476
 Transform:
   m_ObjectHideFlags: 0
